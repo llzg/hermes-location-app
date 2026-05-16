@@ -86,7 +86,7 @@ private val BgSurface = Color(0xFF111827)
 private val BorderColor = Color(0xFF1E293B)
 
 // ── Constants ───────────────────────────────────────────────
-private const val Endpoint = "https://location.lzghs.top/location"
+private const val Endpoint = "https://location.lzghs.top:16666/location"
 private val JsonMediaType = "application/json; charset=utf-8".toMediaType()
 private const val AUTO_REFRESH_MS = 60_000L
 
