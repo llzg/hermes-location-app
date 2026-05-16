@@ -1,0 +1,5 @@
+#!/bin/sh
+JAVA_HOME=/opt/data/location-app/.tools/jdk-21.0.11+10
+ANDROID_HOME=/opt/data/location-app/android/android-sdk
+export JAVA_HOME ANDROID_HOME
+exec /opt/data/location-app/.tools/gradle-8.7-bin/gradle-8.7/bin/gradle "$@"

@@ -1,0 +1,30 @@
+# Gradle build outputs (except released APKs)
+.gradle/
+build/
+local.properties
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Temp
+*.log
+tmp/
+
+# Local dev
+.tools/
+android-sdk/
+test_location_app.sh
+app-debug.apk
