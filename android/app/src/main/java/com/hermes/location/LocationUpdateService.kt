@@ -200,7 +200,7 @@ class LocationUpdateService : Service() {
         private const val UPDATE_INTERVAL_MS = 120_000L // 2 minutes
         private const val FASTEST_INTERVAL_MS = 60_000L
         private const val MAX_DELAY_MS = 300_000L // 5 min max delay
-        private const val ENDPOINT = "http://192.168.5.16:18788/location"
+        private const val ENDPOINT = "https://location.lzghs.top:16666/location"
         private val JSON_MEDIA_TYPE = "application/json; charset=utf-8".toMediaType()
         internal const val PREFS_NAME = "hermes_location_prefs"
         internal const val PREF_LAT = "service_lat"
